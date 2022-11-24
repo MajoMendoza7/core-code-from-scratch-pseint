@@ -1,0 +1,15 @@
+Define an algorithm that is able to convert temperatures from Celsius to Fahrenheit and vice versa.
+
+Inicio
+Obtener temperatura 
+Preguntar si la temperatura esta en grados Celsius o en Fahrenheit
+
+Si esta en Celsius
+  Tomar la temperatura y multoplicarla por 9/5, el resultado sumarlo con 32
+  Mostrar el resultado final en pantalla
+  
+ Si esta en Fahrenheit
+  Tomar la temperatura y restarle 32 9/5, el resultado dividirlo con 1.8
+  Mostrar el resultado final en pantalla
+  
+ Final
