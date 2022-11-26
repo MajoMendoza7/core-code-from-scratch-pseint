@@ -1,0 +1,11 @@
+We are in a room with three chests. We know that at least one has a treasure in it. Each chest has a message, but all the messages are lies.
+
+Left chest: The middle chest has a treasure
+Middle chest: All these chests have treasures in them
+Right chest: Only one of these chests has treasures.
+
+Which chests have treasures?
+
+
+The middle chest does not have a treasure since the left chest is lying.
+There is more than 1 treasure since the right chest is lying, so we have the left and right chests with treasures.
