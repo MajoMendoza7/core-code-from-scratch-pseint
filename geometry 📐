@@ -1,0 +1,19 @@
+Design an algorithm to calculate the volume of a pyramid, a cube and a sphere.
+
+Comienzo
+Preguntar si el objeto es una piramide, cubo o esfera
+
+Si es una piramide
+Multiplicar la medida de la altura con la medida de ambos lados
+Dividir el resultado entre tres
+Imprimir el resultado en pantalla
+
+Si es un cubo
+Se multiplica la medida de los 3 lados del cubo
+Imprimir el resultado en pantalla
+
+Si es una esfera
+Tomar el diametro de la esfera y dividirla en 2, llamar este resultado "a"
+Dividir 4 entre 3 y multiplicarlo por 3.1416, llamar este resultado "b"
+Multiplicar resultado a con resultado b
+Imprimir el resultado en pantalla
