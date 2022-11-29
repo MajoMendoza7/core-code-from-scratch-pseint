@@ -1,0 +1,13 @@
+Write pseudocode for an algorithm that calculates the age of a person based on date of birth
+
+Comienzo
+Preguntar la fecha de nacimiento
+Si el mes es igual o menor al mes actual y el dia es menor o igual al dia actual
+Tomar el año recibido y sumarle 1 año hasta llegar al año actual
+
+De lo contrario
+Tomar el año recibido y sumarle 1 año hasta llegar al año actual
+Restarle 1 año al resultado
+
+Imprimir el resultado en pantalla
+Fin
