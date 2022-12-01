@@ -1,0 +1,5 @@
+Algoritmo evenAndOdd
+	leer a
+	operacion<-a % 2 
+	Imprimir operacion
+FinAlgoritmo
