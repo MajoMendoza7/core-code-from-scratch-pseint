@@ -1,0 +1,19 @@
+Algoritmo form
+	Imprimir "=====USER FORM====="
+	Imprimir "First name"
+	Leer FirstName
+	Imprimir "Last name"
+	Leer LastName
+	Imprimir "Age"
+	Leer Age
+	Imprimir "Email"
+	Leer Email
+	Imprimir "Address"
+	Leer Address
+	
+	Imprimir "=====USER INFORMATION====="
+	Imprimir FirstName + " " LastName
+	Imprimir Age " years old"
+	Imprimir Email
+	Imprimir Address
+FinAlgoritmo
