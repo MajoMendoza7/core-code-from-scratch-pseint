@@ -1,0 +1,14 @@
+Algoritmo boolean
+	a <- 5 == 3
+  // the variable "a" has an operation that says "5 equals 3" since it is not true, the result is going to be false.
+	b <- 4 <> 3
+  // the variable "b" has an operation that says "4 is smaller or bigger than 3" since it is true, the result is going to be true.
+	c <- 7 > 7
+  // the variable "c" has an operation that says "7 is bigger than 7" since 7 equals 7, the result is going to be false.
+	d <- 4 < 4
+  //the variable "d" has an operation that says "4 is smaller than 4" since 4 equals 4, the result is going to be false.
+	e <- 100 <= 90
+  // the variable "e" has an operation that says "100 is smaller or equals 90" since 100 is bigger than 90, the result is going to be false.
+	f <- 40 >= 40
+  // the variable "f" has an operation that says "40 is bigger or equals 40" since it is right, the result is going to be true.
+FinAlgoritmo
