@@ -1,0 +1,11 @@
+Algoritmo boolean
+	Imprimir "Ingrese número a verificar"
+	Leer num
+	resultado <- num % 2
+	
+	Si resultado = 0 Entonces
+		Imprimir "Número " num " es par"
+	SiNo
+		Imprimir "Número " num " es impar"
+	Fin Si
+FinAlgoritmo
