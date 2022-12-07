@@ -1,0 +1,44 @@
+Algoritmo specialNumber
+	Imprimir "=====Multi Opcion====="
+	Imprimir "Opciones Disponibles"
+	Imprimir "1. Sumar de dos numeros"
+	Imprimir "2. Imprimir dia de la semana"
+	Imprimir "3. Calcular longitud de texto"
+	Leer Operacion
+	
+	Segun Operacion Hacer
+		1:
+				Imprimir "Ingresar primer numero"
+				Leer N1
+				Imprimir "Ingresar segundo numero"
+				Leer N2
+				Imprimir "Resultado: " N1 + N2
+				
+		2:
+			Imprimir "Escribir dia de la semana usando 1 numero del 1 al 7"
+			Leer UserDia
+				Segun UserDia Hacer
+					1: 
+						Imprimir "Lunes"
+					2:
+						Imprimir "Martes"
+					3:
+						Imprimir "Miercoles"
+					4: 
+						Imprimir "Jueves"
+					5: 
+						Imprimir "Viernes"
+					6:
+						Imprimir "Sabado"
+					7:
+						Imprimir "Domingo"
+					De Otro Modo:
+						Imprimir "Opcion no disponible"
+				FinSegun
+		3:
+			Imprimir "Escribir texto"
+			Leer UserLongitud
+			Imprimir Longitud(UserLongitud)
+		De Otro Modo:
+			Imprimir "Opcion no disponible"
+	Fin Segun
