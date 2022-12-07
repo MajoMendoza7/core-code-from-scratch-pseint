@@ -1,0 +1,36 @@
+Algoritmo specialNumber
+	
+	Imprimir "======Simple Calculator====="
+	Imprimir "Ingrese primer numero"
+	Leer N1
+	Imprimir "Ingrese segundo numero"
+	Leer N2
+	Imprimir "Seleccione operacion +,-,*,/"
+	Leer operacion
+	
+	Segun operacion Hacer
+		"+":
+			Imprimir "Procesando: " N1 " + " N2
+		"-":
+			Imprimir "Procesando: " N1 " - " N2
+		"*":
+			Imprimir "Procesando: " N1 " * " N2
+		"/":
+			Imprimir "Procesando: " N1 " / " N2
+		De Otro Modo:
+			Imprimir "La operación no es valida"
+	Fin Segun
+			
+	Segun operacion Hacer
+		"+":
+			Imprimir "Resultado: " N1 + N2
+		"-":
+			Imprimir "Resultado: " N1 - N2
+		"*":
+			Imprimir "Resultado: " N1 * N2
+		"/":
+			Imprimir "Resultado: " N1 / N2
+	FinSegun
+		
+	
+FinAlgoritmo
