@@ -1,0 +1,50 @@
+Algoritmo SimpleCalculator
+	Imprimir "=====Simple Calculator====="
+	Repetir
+		Imprimir "Ingrese primer numero"
+		Leer primerNumero
+		Imprimir "Ingrese segundo numero"
+		Leer segundoNumero
+		Imprimir "Seleccione operacion +, -, /, *"
+		Leer operacion
+		Si operacion = "+" Entonces
+			Imprimir "Procesando: " primerNumero " + " segundoNumero
+		Sino 
+			Si operacion = "-" Entonces
+				Imprimir "Procesando: " primerNumero " - " segundoNumero
+			SiNo 
+				Si operacion = "*" Entonces
+					Imprimir "Procesando: " primerNumero " * " segundoNumero
+				SiNo
+					Si operacion = "/" Entonces
+						Imprimir "Procesando: " primerNumero " / " segundoNumero
+					SiNo 
+						Imprimir "La operación no es valida"
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+		
+		Si operacion = "+" Entonces
+			Imprimir "Resultado: " primerNumero + segundoNumero
+		SiNo 
+			Si operacion = "-" Entonces
+				Imprimir "Resultado: " primerNumero - segundoNumero
+			SiNo
+				Si operacion = "*" Entonces
+					Imprimir "Resultado: " primerNumero * segundoNumero
+				SiNo
+					Si operacion = "/" Entonces
+						Imprimir "Resultado: " primerNumero / segundoNumero
+					FinSi
+				FinSi
+			FinSi
+		Fin Si
+		
+		Imprimir "Desea realizar otra operacion?"
+		Leer respuesta
+		
+	Mientras Que respuesta == "si"
+
+	
+FinAlgoritmo
