@@ -1,0 +1,13 @@
+Algoritmo MientrasTabla
+		
+	Imprimir "======Tablas de Multiplicar======"
+	Imprimir "Ingrese la tabla a calcular:"
+	Leer Num
+	Tabla <- 1
+	
+		Mientras tabla <= 10 Hacer
+			Imprimir Num "* " tabla "= " num * tabla
+			Tabla <- tabla + 1
+		Fin Mientras
+	
+FinAlgoritmo
