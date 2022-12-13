@@ -1,0 +1,23 @@
+Algoritmo Ascending_and_Descending_Numbers
+	Imprimir "=====Ascending and Descending Numbers====="
+	Imprimir "Ingrese un numero"
+	Leer Num
+	Imprimir "Desea los numeros ascendientes o descendientes?"
+	Leer estilo
+	Definir conteo, suma Como Entero
+	
+	Si estilo = "ascendientes" Entonces
+		Para conteo=0 Hasta num Con Paso 1 Hacer
+			Imprimir conteo
+		Fin Para
+	SiNo
+		Si estilo = "descendientes" Entonces
+			Para conteo<-num Hasta 0 Con Paso -1 Hacer
+				Imprimir conteo
+			Fin Para
+			SiNo
+				Imprimir "Ingreso un dato invalido"
+		FinSi
+	Fin Si
+	
+FinAlgoritmo
