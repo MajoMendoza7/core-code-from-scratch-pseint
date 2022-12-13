@@ -1,0 +1,29 @@
+Algoritmo Greetings
+	Imprimir "=====Cheers====="
+	Definir saludo Como Caracter
+	saludo <- "Si"
+	repeticiones <- 0
+	Mientras saludo = "Si" Hacer
+		Imprimir "Ingrese la hora actual (0-23)"
+		Leer Hora
+		Si Hora <= 12 Entonces
+			Imprimir "Buenos dias!"
+		SiNo
+			Si Hora >= 13 & hora <= 18 Entonces
+				Imprimir "Buenas tardes!"
+			SiNo
+				Si Hora >= 19 & Hora <= 23 Entonces
+					Imprimir "Buenas noches!"
+				SiNo
+					Imprimir "Ingreso un dato incorrecto"
+				FinSi
+			FinSi
+		FinSi
+		Imprimir "Desea realizar otro saludo?"
+		Leer Saludo
+		repeticiones <- repeticiones + 1
+	Fin Mientras
+	
+	
+	Imprimir "Se saludaron " repeticiones " veces"
+FinAlgoritmo
