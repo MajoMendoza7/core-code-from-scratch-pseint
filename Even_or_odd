@@ -1,0 +1,20 @@
+Algoritmo Even_or_odd
+	Imprimir "Write a number between 1 and 50"
+	Leer number
+	
+	Mientras number <= 0 | number > 50 Hacer
+		Imprimir "invalid number"
+		Imprimir "Write a number between 1 and 50"
+		leer number
+	Fin Mientras
+
+	Si number % 2 = 1 Entonces
+		Para contable<-1 Hasta number Con Paso 2 Hacer
+			Imprimir contable 
+		Fin Para
+	SiNo
+		Para contable<-2 Hasta number Con Paso 2 Hacer
+			Imprimir contable 
+		Fin Para
+	FinSi
+FinAlgoritmo
