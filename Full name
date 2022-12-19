@@ -1,0 +1,11 @@
+Algoritmo Full_name
+	Imprimir "Write a name"
+	Leer Nombre
+	Imprimir "Write a last name"
+	Leer Apellido
+	nombreI <- SubCadena(nombre,0,0)
+	apellidoI<- SubCadena(apellido, 0,0)
+	nombreF <- SubCadena(nombre, 1, 20)
+	apellidoF <- Subcadena(apellido, 1, 20)
+	Imprimir Mayusculas(nombreI) Minusculas(nombreF) " " Mayusculas(apellidoI) Minusculas(apellidoF)
+FinAlgoritmo
