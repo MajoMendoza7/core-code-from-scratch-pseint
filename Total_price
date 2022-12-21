@@ -1,0 +1,12 @@
+Funcion total <- TotalPrice (price,vat)
+	Si price > 3000 Entonces
+		total = (price * (vat/100) + price) * 0.90         
+	SiNo
+		total = price * (vat/100) + price
+	FinSi
+Fin Funcion
+
+
+Algoritmo example_TotalPrice
+	Imprimir TotalPrice(2000,21)
+FinAlgoritmo
