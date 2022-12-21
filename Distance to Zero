@@ -1,11 +1,15 @@
-Algoritmo Distance_to_zero
-	
-	definir number Como Entero
-	
-	Para distance<-1 Hasta 5 Con Paso 1 Hacer
+	Algoritmo Distance_to_zero
+		
 		Imprimir "Write a number"
 		Leer number
-	Fin Para
-	
-	Imprimir trunc(maximo)
-FinAlgoritmo
+		
+		Para count<-1 Hasta 4 Con Paso 1 Hacer
+			Imprimir "Write a number"
+			Leer number2
+			Si abs(number) > abs(number2) Entonces
+				number2 = number
+			FinSi
+		Fin Para
+		
+		Imprimir trunc(number2)
+	FinAlgoritmo
