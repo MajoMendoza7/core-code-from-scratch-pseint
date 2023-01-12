@@ -1,0 +1,8 @@
+Exercise: https://www.codewars.com/kata/514a7ac1a33775cbb500001e/train/javascript
+
+Solution:
+var results = {sanity: 'Hello'};
+
+function mystery() {
+  return results;
+}
